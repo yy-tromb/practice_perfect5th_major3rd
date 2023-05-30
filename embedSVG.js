@@ -20,7 +20,7 @@ target = target.replaceAll(
 
 console.log(target);
 
-fs.writeFileSync(target_path, src);
+fs.writeFileSync(target_path, target);
 
 /*const {document}=new JSDOM(src).window;
 const embed_svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
