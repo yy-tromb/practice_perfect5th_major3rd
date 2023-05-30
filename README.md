@@ -5,5 +5,5 @@ The quiz to practice to guess the perfect 5th and the major 3rd.
   
 ## embed SVG  
 To embed SVG into HTML, please execute embedSVG.js  
-Then `index.html` is made from `src.html`.
+Then `index.html` is made from `src.html`.  
 for example `$ node ./embedSVG.js`
