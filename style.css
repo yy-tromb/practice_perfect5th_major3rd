@@ -18,25 +18,37 @@ body {
     flex-direction: column;
 }
 
-.page{
-    width:100%;
-    height:100%;
-    margin:0;
+.page {
+    width: 100%;
+    height: 100%;
+    margin: 0;
 }
 
-#page_top{
-    text-align: center;
-}
-
-button{
+button {
     border: 0;
 }
 
-.button{
+.button {
     border-radius: 20%;
 }
 
-#quiz_stop{
-    color:white;
+#page_top {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#top_start {
+    font-size: 2em;
+}
+
+#page_quiz {
+    display: none;
+}
+
+#quiz_stop {
+    color: white;
     background-color: red;
 }
